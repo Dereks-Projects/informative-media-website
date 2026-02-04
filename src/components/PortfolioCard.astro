@@ -1,0 +1,24 @@
+---
+interface Props {
+  brand: string;
+  website: string;
+  tagline: string;
+  techStack: string;
+  image: string;
+  altText: string;
+}
+
+const { brand, website, tagline, techStack, image, altText } = Astro.props;
+---
+
+<div class="portfolio-card">
+  <div class="card-image">
+    <img src={`/images/${image}`} alt={altText} loading="lazy">
+  </div>
+  <div class="card-body">
+    <h3 class="card-brand">{brand}</h3>
+    <p class="card-tagline">{tagline}</p>
+    <p class="card-tech">Tech Stack: {techStack}</p>
+    <a href={website} target="_blank" rel="noopener noreferrer" class="card-link">Visit the Site &rarr;</a>
+  </div>
+</div>

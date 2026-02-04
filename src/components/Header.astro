@@ -1,0 +1,37 @@
+---
+/* No imports needed for this component */
+---
+
+<header class="header" id="top">
+  <div class="header-container">
+    <a href="/" class="header-logo">Informative Media</a>
+    <nav class="header-nav" id="mainNav">
+      <a href="/portfolio">Portfolio</a>
+      <a href="/work-with-us">Work with Us</a>
+      <a href="/about">About</a>
+      <a href="mailto:derekengles@gmail.com">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const mainNav = document.getElementById('mainNav');
+
+  menuToggle?.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    mainNav?.classList.toggle('open');
+  });
+
+  mainNav?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      menuToggle?.classList.remove('active');
+      mainNav?.classList.remove('open');
+    });
+  });
+</script>

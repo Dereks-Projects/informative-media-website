@@ -1,0 +1,118 @@
+[
+  {
+    "id": "somm-site",
+    "brand": "Somm.Site",
+    "website": "https://www.somm.site",
+    "tagline": "We explore wine culture, from grape to glass.",
+    "description": "Somm.Site is designed for novice, enthusiast and professional wine lovers. Articles, courses and insights into the wonderful world of wine.",
+    "techStack": "Next.js + Sanity.io",
+    "status": "live",
+    "launchYear": 2022,
+    "image": "sommsite-informativemedia.jpg",
+    "altText": "Somm.Site is your best source for wine knowledge.",
+    "features": [
+      "Wine industry articles",
+      "Wine courses",
+      "Wine encyclopedia"
+    ],
+    "targetAudience": "Wine lovers, beverage enthusiasts, hotel and restaurant employees, and hospitality professionals",
+    "category": "education"
+  },
+  {
+    "id": "somm-tips",
+    "brand": "Somm.Tips",
+    "website": "https://www.somm.tips",
+    "tagline": "Your personal beverage recommendation engine.",
+    "description": "Somm.Tips is a web application that helps you make better choices in the wine shop and off of the restaurant beverage list.",
+    "techStack": "React.js",
+    "status": "live",
+    "launchYear": 2025,
+    "image": "sommtips-informativemedia.jpg",
+    "altText": "Somm.Tips is your best source for quality beverage recommendations.",
+    "features": [
+      "Beverage recommendations",
+      "Wine education",
+      "Cocktail suggestions"
+    ],
+    "targetAudience": "Anyone who needs a wine or cocktail recommendation.",
+    "category": "recommendation engine"
+  },
+  {
+    "id": "restaurantstandards",
+    "brand": "RestaurantStandards.com",
+    "website": "https://www.restaurantstandards.com",
+    "tagline": "We deliver the highest level of service in the industry.",
+    "description": "Restaurant Standards is a one stop shop for all restaurant operators pursuing Michelin, Forbes and AAA awards through guest service excellence.",
+    "techStack": "Next.js + Sanity.io",
+    "status": "live",
+    "launchYear": 2025,
+    "image": "rs-informativemedia.jpg",
+    "altText": "RestaurantStandards.com gives hospitality teams the insight they need to perform at the highest level.",
+    "features": [
+      "Restaurant operations insights",
+      "Guest service details",
+      "Restaurant awards achievement",
+      "General restaurant service knowledge and information"
+    ],
+    "targetAudience": "Restaurant operators and employees focused on delivering the best guest service.",
+    "category": "hospitality performance"
+  },
+  {
+    "id": "beverage-fyi",
+    "brand": "Beverage.fyi",
+    "website": "https://www.beverage.fyi",
+    "tagline": "Covering the entire world of beverages on a deeper level.",
+    "description": "Beverage.fyi covers the world of beverage in detail from beer and cocktails to business and marketing topics.",
+    "techStack": "Next.js + Sanity.io",
+    "status": "live",
+    "launchYear": 2025,
+    "image": "bevfyi-informativemedia.jpg",
+    "altText": "Beverage.fyi is your best source for beverage education and insights.",
+    "features": [
+      "Beverage industry news",
+      "Wine industry articles",
+      "Spirits, beer and sake information"
+    ],
+    "targetAudience": "Anyone who wants to learn about beverages from around the world.",
+    "category": "education"
+  },
+  {
+    "id": "hospitality-fyi",
+    "brand": "Hospitality.fyi",
+    "website": "https://www.hospitality.fyi",
+    "tagline": "Discovering the best in restaurant & hotel operations.",
+    "description": "Hospitality.fyi covers the hospitality industry on a deeper level, covering the important topics in this category.",
+    "techStack": "Next.js + Sanity.io",
+    "status": "live",
+    "launchYear": 2026,
+    "image": "hospitalityfyi-informativemedia.jpg",
+    "altText": "Hospitality.fyi dives into the hotel and restaurant industry.",
+    "features": [
+      "Restaurant insights",
+      "Hotel details",
+      "Travel destination overviews",
+      "General guest service knowledge and information"
+    ],
+    "targetAudience": "Anyone looking to discover hospitality operations on a deeper level.",
+    "category": "industry insights"
+  },
+  {
+    "id": "backbar-fyi",
+    "brand": "Backbar.fyi",
+    "website": "https://www.backbar.fyi",
+    "tagline": "Deeper dives into all the categories of spirits.",
+    "description": "Backbar.fyi covers the spirits industry on a deeper level, covering the important topics in this category.",
+    "techStack": "Next.js + Sanity.io",
+    "status": "live",
+    "launchYear": 2026,
+    "image": "backbarfyi-informativemedia.jpg",
+    "altText": "Backbar.fyi helps you discover the world of spirits on a deeper level.",
+    "features": [
+      "Whiskey insights",
+      "Vodka and Gin details",
+      "General spirits knowledge and information"
+    ],
+    "targetAudience": "Anyone who wants to learn about spirits from around the world.",
+    "category": "education"
+  }
+]

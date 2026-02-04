@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import portfolioData from '../data/portfolio.json';
+import '../styles/pages.css';
+---
+
+<Layout
+  title="Our Portfolio | Informative Media"
+  description="Explore the Informative Media portfolio — education platforms spanning wine, beverages, hospitality, and restaurant operations."
+>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="section section-dark page-header">
+    <div class="container text-center">
+      <h1 class="section-title">Our Portfolio</h1>
+      <p class="section-text">Six platforms. One mission. Delivering practical hospitality education to professionals and enthusiasts worldwide.</p>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO DETAIL CARDS ===== -->
+  <section class="section section-dark detail-section">
+    <div class="container">
+      {portfolioData.map((site, index) => (
+        <div class={`detail-card ${index % 2 !== 0 ? 'detail-card-reverse' : ''}`}>
+          <div class="detail-card-image">
+            <img src={`/images/${site.image}`} alt={site.altText} loading="lazy">
+          </div>
+          <div class="detail-card-content">
+            <span class="detail-card-category">{site.category}</span>
+            <h2 class="detail-card-title">{site.brand}</h2>
+            <p class="detail-card-subtitle">{site.tagline}</p>
+            <p class="detail-card-text">{site.description}</p>
+            <div class="detail-card-features">
+              <h3 class="detail-card-features-title">Features</h3>
+              <ul>
+                {site.features.map((feature) => (
+                  <li>{feature}</li>
+                ))}
+              </ul>
+            </div>
+            <div class="detail-card-meta">
+              <span>Audience: {site.targetAudience}</span>
+              <span>Tech Stack: {site.techStack}</span>
+              <span>Launched: {site.launchYear}</span>
+            </div>
+            <a href={site.website} target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit {site.brand} &rarr;</a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+</Layout>

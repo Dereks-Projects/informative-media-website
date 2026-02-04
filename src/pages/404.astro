@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/pages.css';
+---
+
+<Layout
+  title="Page Not Found | Informative Media"
+  description="The page you are looking for does not exist."
+>
+
+  <section class="section section-dark page-header error-page">
+    <div class="container text-center">
+      <p class="error-code">404</p>
+      <h1 class="section-title">Page Not Found</h1>
+      <p class="section-text">The page you&rsquo;re looking for doesn&rsquo;t exist or has been moved. Let&rsquo;s get you back on track.</p>
+      <div class="error-buttons">
+        <a href="/" class="btn btn-primary">Back to Home</a>
+        <a href="/portfolio" class="btn btn-primary">View Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PortfolioCard from '../components/PortfolioCard.astro';
+import portfolioData from '../data/portfolio.json';
+---
+
+<Layout
+  title="Informative Media | Experiential Education & Value Marketing"
+  description="An integrated portfolio of education platforms reaching hospitality professionals and enthusiasts worldwide."
+>
+
+  <!-- ===== SECTION 1: HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">One Ecosystem.<br>Every Pillar of Hospitality.</h1>
+      <p class="hero-subtitle">An integrated portfolio of education platforms reaching professionals and enthusiasts worldwide.</p>
+      <div class="hero-buttons">
+        <a href="#solutions" class="btn btn-primary">Learn More</a>
+        <a href="mailto:derekengles@gmail.com" class="btn btn-primary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2: WHAT WE BUILD ===== -->
+  <section class="section section-dark" id="solutions">
+    <div class="container text-center">
+      <h2 class="section-title">What We Build</h2>
+      <p class="section-text">Education and experience are at the core of everything we build. Our portfolio of websites and applications delivers practical knowledge across hospitality, tourism, and food &amp; beverage &mdash; designed for professionals and enthusiasts alike.</p>
+      <a href="/portfolio" class="accent-link">Our Portfolio &rarr;</a>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3: OUR BRANDS ===== -->
+  <section class="section section-gradient" id="portfolio">
+    <div class="container text-center">
+      <h2 class="section-title">Our Brands</h2>
+      <p class="section-tagline">We create valuable learning experiences for everyone.</p>
+      <div class="card-grid">
+        {portfolioData.map((site) => (
+          <PortfolioCard
+            brand={site.brand}
+            website={site.website}
+            tagline={site.tagline}
+            techStack={site.techStack}
+            image={site.image}
+            altText={site.altText}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4: YOUR AUDIENCE ===== -->
+  <section class="section section-dark" id="advertising">
+    <div class="container text-center">
+      <h2 class="section-title">Your Audience Is Already Here</h2>
+      <p class="section-text">Hospitality managers. Restaurant employees. Sommeliers building beverage programs. Enthusiasts planning their next wine country trip. Our platforms attract people who are actively learning &mdash; which means they&rsquo;re actively looking for new experiences. Put your brand in front of an audience that&rsquo;s paying attention.</p>
+      <a href="/work-with-us" class="accent-link">Work with Us &rarr;</a>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 5: MEET THE FOUNDER ===== -->
+  <section class="section section-light" id="about">
+    <div class="container">
+      <h2 class="section-title section-title-dark text-center">Meet the Founder &ndash; Derek Engles</h2>
+      <div class="founder-grid">
+        <div class="founder-text">
+          <p>Derek Engles has spent more than 20 years building hospitality education programs for luxury service environments, a focus that sits at the core of Informative Media&rsquo;s work. His background combines education design, frontline hospitality experience, and formal business training.</p>
+          <p>Derek spent over a decade as a sommelier and wine director with Wynn Resorts and MGM Resorts International and is an Advanced Sommelier. He is also a graduate of the Harvard Business School Leadership Program and has personally served more than 200,000 guests across fine dining and resort operations.</p>
+          <p>Informative Media reflects this integrated perspective, delivering education shaped by real operational demands rather than theory alone.</p>
+        </div>
+        <div class="founder-image">
+          <img src="/images/founder-informativemedia.png" alt="Derek Engles, Founder of Informative Media">
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="/about" class="accent-link accent-link-dark">More About Us &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+</Layout>
