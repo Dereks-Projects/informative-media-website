@@ -3,8 +3,8 @@
     "id": "somm-site",
     "brand": "Somm.Site",
     "website": "https://www.somm.site",
-    "tagline": "We explore wine culture, from grape to glass.",
-    "description": "Somm.Site is designed for novice, enthusiast and professional wine lovers. Articles, courses and insights into the wonderful world of wine.",
+    "tagline": "Exploring wine culture through articles, courses and insider knowledge.",
+    "description": "Somm.Site is designed for everyone who enjoys, wine, food and culture. This site features articles, courses and insights into the wonderful world of wine.",
     "techStack": "Next.js + Sanity.io",
     "status": "live",
     "launchYear": 2022,
@@ -16,13 +16,13 @@
       "Wine encyclopedia"
     ],
     "targetAudience": "Wine lovers, beverage enthusiasts, hotel and restaurant employees, and hospitality professionals",
-    "category": "education"
+    "category": "Food & beverage education"
   },
   {
     "id": "somm-tips",
     "brand": "Somm.Tips",
     "website": "https://www.somm.tips",
-    "tagline": "Your personal beverage recommendation engine.",
+    "tagline": "Your personal beverage recommendation engine, from exotic wines to classic cokctails.",
     "description": "Somm.Tips is a web application that helps you make better choices in the wine shop and off of the restaurant beverage list.",
     "techStack": "React.js",
     "status": "live",
@@ -41,7 +41,7 @@
     "id": "restaurantstandards",
     "brand": "RestaurantStandards.com",
     "website": "https://www.restaurantstandards.com",
-    "tagline": "We deliver the highest level of service in the industry.",
+    "tagline": "Helping restaurants acheive the highest accolades in the industry.",
     "description": "Restaurant Standards is a one stop shop for all restaurant operators pursuing Michelin, Forbes and AAA awards through guest service excellence.",
     "techStack": "Next.js + Sanity.io",
     "status": "live",
@@ -55,7 +55,7 @@
       "General restaurant service knowledge and information"
     ],
     "targetAudience": "Restaurant operators and employees focused on delivering the best guest service.",
-    "category": "hospitality performance"
+    "category": "restaurant management"
   },
   {
     "id": "beverage-fyi",
@@ -74,7 +74,7 @@
       "Spirits, beer and sake information"
     ],
     "targetAudience": "Anyone who wants to learn about beverages from around the world.",
-    "category": "education"
+    "category": "online magazine"
   },
   {
     "id": "hospitality-fyi",
@@ -94,13 +94,13 @@
       "General guest service knowledge and information"
     ],
     "targetAudience": "Anyone looking to discover hospitality operations on a deeper level.",
-    "category": "industry insights"
+    "category": "online magazine"
   },
   {
     "id": "backbar-fyi",
     "brand": "Backbar.fyi",
     "website": "https://www.backbar.fyi",
-    "tagline": "Deeper dives into all the categories of spirits.",
+    "tagline": "A closer look at all the unique categories spirits from around the globe.",
     "description": "Backbar.fyi covers the spirits industry on a deeper level, covering the important topics in this category.",
     "techStack": "Next.js + Sanity.io",
     "status": "live",
@@ -113,6 +113,6 @@
       "General spirits knowledge and information"
     ],
     "targetAudience": "Anyone who wants to learn about spirits from around the world.",
-    "category": "education"
+    "category": "online magazine"
   }
 ]
