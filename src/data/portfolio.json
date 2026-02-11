@@ -22,7 +22,7 @@
     "id": "somm-tips",
     "brand": "Somm.Tips",
     "website": "https://www.somm.tips",
-    "tagline": "Your personal beverage recommendation engine, from exotic wines to classic cokctails.",
+    "tagline": "Your personal beverage recommendation engine, from exotic wines to classic cocktails.",
     "description": "Somm.Tips is a web application that helps you make better choices in the wine shop and off of the restaurant beverage list.",
     "techStack": "React.js",
     "status": "live",
