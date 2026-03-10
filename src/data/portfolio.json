@@ -24,7 +24,7 @@
     "website": "https://www.somm.tips",
     "tagline": "Your personal beverage recommendation engine, from exotic wines to classic cocktails.",
     "description": "Somm.Tips is a web application that helps you make better choices in the wine shop and off of the restaurant beverage list.",
-    "techStack": "React.js",
+    "techStack": "Next.js",
     "status": "live",
     "launchYear": 2025,
     "image": "sommtips-informativemedia.jpg",
@@ -34,7 +34,7 @@
       "Wine education",
       "Cocktail suggestions"
     ],
-    "targetAudience": "Anyone who needs a wine or cocktail recommendation.",
+    "targetAudience": "Anyone who needs a wine or cocktail recommendation, people shopping for wine in restaurants and wine shops.",
     "category": "recommendation engine"
   },
   {
@@ -97,22 +97,22 @@
     "category": "online magazine"
   },
   {
-    "id": "backbar-fyi",
-    "brand": "Backbar.fyi",
-    "website": "https://www.backbar.fyi",
-    "tagline": "A closer look at all the unique categories spirits from around the globe.",
-    "description": "Backbar.fyi covers the spirits industry on a deeper level, covering the important topics in this category.",
+    "id": "cuisine-fyi",
+    "brand": "Cuisine.fyi - Coming Soon",
+    "website": "https://www.cuisine.fyi",
+    "tagline": "Covering the best that the world of cuisine has to offer.",
+    "description": "Cuisine.fyi covers food in an educational manner, covering the important topics in this category.",
     "techStack": "Next.js + Sanity.io",
-    "status": "live",
+    "status": "in production",
     "launchYear": 2026,
-    "image": "backbarfyi-informativemedia.jpg",
-    "altText": "Backbar.fyi helps you discover the world of spirits on a deeper level.",
+    "image": "cuisinefyi-informativemedia.jpg",
+    "altText": "Cuisine.fyi helps you discover the world of food on a deeper level.",
     "features": [
-      "Whiskey insights",
-      "Vodka and Gin details",
-      "General spirits knowledge and information"
+      "Food insights",
+      "Ingredient details",
+      "General cooking knowledge and information"
     ],
-    "targetAudience": "Anyone who wants to learn about spirits from around the world.",
+    "targetAudience": "Anyone who wants to learn about food from around the world.",
     "category": "online magazine"
   }
 ]

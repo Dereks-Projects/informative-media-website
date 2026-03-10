@@ -75,7 +75,7 @@ Brand data is stored in `src/data/portfolio.json` and consumed by both the homep
 | RestaurantStandards.com | [restaurantstandards.com](https://www.restaurantstandards.com) | Hospitality performance |
 | Beverage.fyi | [beverage.fyi](https://www.beverage.fyi) | Beverage education |
 | Hospitality.fyi | [hospitality.fyi](https://www.hospitality.fyi) | Industry insights |
-| Backbar.fyi | [backbar.fyi](https://www.backbar.fyi) | Spirits education |
+
 
 ---
 
